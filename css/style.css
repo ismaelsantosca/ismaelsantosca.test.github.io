@@ -88,10 +88,12 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+    background: linear-gradient(130deg, #000000, #0f054c);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
 }
 
 .hero_area .hero_bg_box {
@@ -139,6 +141,7 @@ a:focus {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  
 }
 
 .navbar-brand span {
@@ -451,7 +454,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #070231;
+  background: linear-gradient(130deg, #000000, #0f054c);
   color: #ffffff;
 }
 
