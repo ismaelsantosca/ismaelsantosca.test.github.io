@@ -84,11 +84,11 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-    background: linear-gradient(130deg, #000000, #0f054c);
+    
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -127,7 +127,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  
+  background: linear-gradient(130deg, #231a6f, #0f054c);  
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -454,7 +454,7 @@ a:focus {
 }
 
 .about_section {
-  background: linear-gradient(130deg, #000000, #0f054c)
+    background: linear-gradient(130deg, #000000, #0f054c)
   color: #ffffff;
 }
 
@@ -746,7 +746,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background: linear-gradient(130deg, #000000, #0f054c);
+   background: linear-gradient(130deg, #231a6f, #0f054c);
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -904,6 +904,9 @@ a:focus {
 .footer_section .img-box{
   padding:10px;
 }
+
+
+
 
 /*# sourceMappingURL=style.css.map */
 
